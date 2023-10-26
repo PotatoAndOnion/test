@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="a">
+        <div class="b">
+            <h1>Register Form</h1>
+            <form>
+                <div class="text-field">
+                    <input type="text" id="Name" required>
+                    <label>Name</label>
+                </div>
+                <div class="text-field">
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="text-field">
+                    <input type="text" id="dob" required>
+                    <label>Date of birth</label>
+                </div>
+                <div class="text-field">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                    <label>Gender</label>
+                </div>
+                <div class="text-box">
+                    <button class="button-30" onclick="signup()">Register</button>
+                    <br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
